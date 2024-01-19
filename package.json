@@ -1,0 +1,24 @@
+{
+  "name": "timezone-helper",
+  "version": "1.0.0",
+  "description": "Timezone Helper is a Javascript library package designed to simplify working with dates and times across different time zones.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/examples/usage.js"
+  },
+  "keywords": [
+    "timezone",
+    "utc",
+    "timezone-helper"
+  ],
+  "author": "Göktuğ Ceyhan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.44"
+  }
+}
