@@ -7,6 +7,10 @@
     "build": "npx tsc",
     "start": "node dist/examples/usage.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goktugcy/timezone-helper.git"
+  },
   "keywords": [
     "timezone",
     "utc",
