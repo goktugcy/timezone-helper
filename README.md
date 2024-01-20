@@ -25,9 +25,7 @@ Here's how you can use Timezone Helper in your project:
 - **Convert to Local Timezone**
 
 ```javascript
-const {
-  convertToUserTimezone,
-} = require("timezone-helper");
+const { convertToUserTimezone } = require("timezone-helper");
 
 const localTime = convertToUserTimezone(
   "2024-01-20T12:00:00Z",
@@ -62,15 +60,21 @@ console.log("Formatted Date:", formattedDate);
 - **Duration Calculation**
 
 ```javascript
-const { calculateDuration } = require('timezone-helper');
+const { calculateDuration } = require("timezone-helper");
 
 // Calculate the duration between two dates
-const startDate = '2024-01-01T00:00:00Z'; // Example start date
-const endDate = '2024-01-02T12:30:00Z'; // Example end date
+const startDate = "2024-01-01T00:00:00Z"; // Example start date
+const endDate = "2024-01-02T12:30:00Z"; // Example end date
 
 // Use the calculateDuration function to calculate the duration
 const duration = calculateDuration(startDate, endDate);
 
 // Print the calculated duration
-console.log(`Duration: ${duration.days} days, ${duration.hours} hours, ${duration.minutes} minutes, ${duration.seconds} seconds.`);
+console.log(
+  `Duration: ${duration.days} days, ${duration.hours} hours, ${duration.minutes} minutes, ${duration.seconds} seconds.`
+);
 ```
+
+## Note
+
+This package is a minimal package built on momentjs.
