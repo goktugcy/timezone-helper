@@ -27,7 +27,7 @@ Here's how you can use Timezone Helper in your project:
 ```javascript
 const {
   convertToUserTimezone,
-} = require("timezone-helper/utils/timeConversion");
+} = require("timezone-helper");
 
 const localTime = convertToUserTimezone(
   "2024-01-20T12:00:00Z",
@@ -39,7 +39,7 @@ console.log("Local Time:", localTime);
 - **Format Time**
 
 ```javascript
-const { formatTime } = require("timezone-helper/utils/timeConversion");
+const { formatTime } = require("timezone-helper");
 
 const formattedTime = formatTime(
   "2024-01-20T12:00:00Z",
@@ -52,7 +52,7 @@ console.log("Formatted Time:", formattedTime);
 - **Format Current Date**
 
 ```javascript
-const { formatDate } = require("timezone-helper/utils/timeFormat");
+const { formatDate } = require("timezone-helper");
 
 const currentDate = new Date();
 const formattedDate = formatDate(currentDate, "YYYY-MM-DD");
