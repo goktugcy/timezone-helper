@@ -1,6 +1,6 @@
 {
   "name": "@goktugcy/timezone-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timezone Helper is a Javascript library package designed to simplify working with dates and times across different time zones.",
   "main": "index.js",
   "scripts": {
