@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/goktugcy/timezone-helper.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@goktugcy"
+  },
   "keywords": [
     "timezone",
     "utc",
