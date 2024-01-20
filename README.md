@@ -9,6 +9,7 @@ Timezone Helper is a JavaScript library designed to simplify working with dates 
 - **User-Friendly Date and Time Display**: Easily display dates and times in a human-readable format.
 - **ISO 8601 Compatibility**: Convert dates and times to ISO 8601 format, useful for APIs and data exchange.
 - **Current Time Convenience Functions**: Quickly access and format the current date and time.
+- **Duration Calculation Feature**: This feature allows you to calculate the duration between two dates, providing the difference in days, hours, minutes, and seconds. It's especially useful for tracking time intervals or scheduling events.
 
 ## Installation
 
@@ -77,4 +78,4 @@ console.log(
 
 ## Note
 
-This package is a minimal package built on momentjs.
+This package is a minimal package built on momentjs. It will continue to be updated according to needs.
