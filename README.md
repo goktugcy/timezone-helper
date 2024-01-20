@@ -16,7 +16,7 @@ Timezone Helper is a JavaScript library designed to simplify working with dates 
 Install Timezone Helper using npm:
 
 ```bash
-npm install timezone-helper
+npm i @goktugcy/timezone-helper
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Here's how you can use Timezone Helper in your project:
 - **Convert to Local Timezone**
 
 ```javascript
-const { convertToUserTimezone } = require("timezone-helper");
+const { convertToUserTimezone } = require("@goktugcy/timezone-helper");
 
 const localTime = convertToUserTimezone(
   "2024-01-20T12:00:00Z",
@@ -38,7 +38,7 @@ console.log("Local Time:", localTime);
 - **Format Time**
 
 ```javascript
-const { formatTime } = require("timezone-helper");
+const { formatTime } = require("@goktugcy/timezone-helper");
 
 const formattedTime = formatTime(
   "2024-01-20T12:00:00Z",
@@ -51,7 +51,7 @@ console.log("Formatted Time:", formattedTime);
 - **Format Current Date**
 
 ```javascript
-const { formatDate } = require("timezone-helper");
+const { formatDate } = require("@goktugcy/timezone-helper");
 
 const currentDate = new Date();
 const formattedDate = formatDate(currentDate, "YYYY-MM-DD");
@@ -61,7 +61,7 @@ console.log("Formatted Date:", formattedDate);
 - **Duration Calculation**
 
 ```javascript
-const { calculateDuration } = require("timezone-helper");
+const { calculateDuration } = require("@goktugcy/timezone-helper");
 
 // Calculate the duration between two dates
 const startDate = "2024-01-01T00:00:00Z"; // Example start date
